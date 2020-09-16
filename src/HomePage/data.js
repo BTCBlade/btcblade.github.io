@@ -88,28 +88,28 @@ export const MMAData = [
 
 export const EsportsData = [
     {
-        title: "Ninja vs Samurai",
+        title: "Browns vs Stealer",
         teamOne: "+130",
         teamTwo: "-140",
         teamOneOver: "+7 +140",
         teamTwoOver: "-7 -120"
     },
     {
-        title: "Cloud9 vs TSM",
+        title: "Cavs vs Golden State",
         teamOne: "+110",
         teamTwo: "-170",
         teamOneOver: "+3 +120",
         teamTwoOver: "-2 -150"
     },
     {
-        title: "Immortals vs GG",
+        title: "Jets vs Patroits",
         teamOne: "+180",
         teamTwo: "-140",
         teamOneOver: "+10 +120",
         teamTwoOver: "-5 -160"
     },
     {
-        title: "G2 vs T1",
+        title: "Browns vs Stealer",
         teamOne: "+130",
         teamTwo: "-140",
         teamOneOver: "+7 +140",
