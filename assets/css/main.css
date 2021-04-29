@@ -267,7 +267,6 @@ i {
 p {
   margin: 0 0 2rem 0;
 }
-
 h1,
 h2,
 h3,
@@ -278,7 +277,7 @@ h6 {
   font-weight: 600;
   line-height: 1.5;
   margin: 0 0 1rem 0;
-  text-transform: uppercase;
+
   letter-spacing: 0.2rem;
 }
 
@@ -298,12 +297,13 @@ h3.major,
 h4.major,
 h5.major,
 h6.major {
+  border-bottom: solid 1px #ffffff;
   width: -moz-max-content;
   width: -webkit-max-content;
   width: -ms-max-content;
   width: max-content;
   padding-bottom: 0.5rem;
-  margin: 0 0 0.5rem 0;
+  margin: 0 0 2rem 0;
 }
 
 h1 {
@@ -404,67 +404,6 @@ hr {
 
 .align-right {
   text-align: right;
-}
-
-.box {
-  margin-bottom: 20px;
-  box-shadow: 20px 20px 20px black;
-}
-
-.img-container {
-  display: flex;
-  flex-direction: row;
-}
-
-.image.main.skybnb {
-  margin: 10px;
-}
-
-.live-git-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-
-.live-git-container.top {
-  margin-bottom: -30px;
-}
-
-.live-github {
-  margin: 20px;
-}
-
-.live-github.link {
-  font-weight: bold;
-  color: rgb(109, 143, 227);
-}
-
-.project-list {
-  list-style-type: circle;
-}
-
-.profile-img {
-  margin: 0 5px 5px 0;
-  height: 120px;
-}
-
-.dash-para {
-  background-color: rgba(0, 0, 0, 0.7);
-  margin: 30px;
-  width: 500px;
-
-  padding: 20px;
-  border: 1px solid white;
-}
-
-.tele {
-  font-size: 24pt;
-  margin-bottom: 20px;
-}
-
-.dashlist {
-  display: flex;
-  justify-content: space-around;
 }
 
 /* Form */
@@ -1334,7 +1273,7 @@ button {
   -ms-transition: -ms-transform 0.325s ease-in-out,
     -ms-filter 0.325s ease-in-out;
   transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
-  background-image: url("../../images/bg2.jpeg");
+  background-image: url("../../images/bg.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1843,4 +1782,114 @@ body.is-article-visible #footer {
 
 body.is-preload #footer {
   opacity: 0;
+}
+
+.live-git-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.live-git-container.top {
+  margin-bottom: -30px;
+}
+
+.live-github {
+  margin: 20px;
+}
+
+.live-github.link {
+  font-weight: bold;
+  color: rgb(109, 143, 227);
+}
+
+.project-list {
+  list-style-type: circle;
+}
+
+#work > h2.major {
+  margin-bottom: 0;
+}
+
+.skills-icons {
+  display: inline-flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.skills-icons-sub {
+  display: flex;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: -ms-flex;
+  align-items: space-between;
+  justify-content: space-between;
+}
+
+.skills-icons-sub:last-of-type {
+  margin-bottom: 2rem;
+}
+
+.skill-container {
+  display: flex;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: -ms-flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 33%;
+  margin: 0.5rem;
+  transition: 1s;
+}
+
+.skill-container:hover .devicon {
+  background-color: rgba(255, 255, 255, 0.5);
+  transition: 1s;
+}
+
+.skill-container:hover .devicon-redux {
+  background-color: rgba(255, 255, 255, 0.5);
+  transition: 1s;
+}
+
+.devicon {
+  background-color: rgba(255, 255, 255, 0.075);
+  color: rgba(255, 255, 255, 0.85);
+  font-size: 2rem;
+  padding: 1rem;
+  border-radius: 12.5%;
+}
+
+.devicon-redux {
+  background-color: rgba(255, 255, 255, 0.075);
+  padding: 1rem;
+  border-radius: 12.5%;
+}
+
+.skill-text {
+  color: rgba(255, 255, 255, 0.9);
+  margin-left: 0.5rem;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+  transition: 1s;
+}
+
+@media screen and (max-width: 530px) {
+  .skill-text {
+    transition: 1s;
+    font-size: 0.65rem;
+    margin-top: 5px;
+  }
+
+  .skill-container {
+    justify-content: center;
+    flex-direction: column;
+    transition: 1s;
+  }
+}
+
+.resume.image.main {
+  margin-top: 0;
 }
