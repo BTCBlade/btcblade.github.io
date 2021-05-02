@@ -1891,5 +1891,11 @@ body.is-preload #footer {
 }
 
 .resume.image.main {
-  margin-top: 0;
+  margin-top: 5px;
+}
+.major.resume {
+  margin-bottom: 10px;
+}
+.about > a {
+  text-decoration: none;
 }
