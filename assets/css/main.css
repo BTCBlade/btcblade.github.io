@@ -1892,8 +1892,8 @@ body.is-preload #footer {
 
 span.resume.image.main > img.display-profile-wpic {
 	margin-top: 5px;
-	width: 250px;
-	height: 500px;
+	width: 80%;
+	height: 80%;
 }
 /* .resume.image.main .major.resume {
 	margin-bottom: 10px;
