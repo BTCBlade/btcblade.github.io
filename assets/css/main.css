@@ -1890,10 +1890,10 @@ body.is-preload #footer {
 	}
 }
 
-.resume.image.main > img.display-profile-wpic {
+span.resume.image.main > img.display-profile-wpic {
 	margin-top: 5px;
-	width: 100%;
-	height: 100%;
+	width: 250px;
+	height: 500px;
 }
 /* .resume.image.main .major.resume {
 	margin-bottom: 10px;
