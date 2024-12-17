@@ -1,9 +1,9 @@
-# **Welcome My Project Portfolio Site github repo! [#](https://btcblade.github.io/) github repo! 
+# **Welcome My Project Portfolio Site github repo! [#](https://btcblade.github.io/) 
 
 <br />
 <p align="center">
   <a href="https://btcblade.github.io">
-    <img src="images/PortfolioSitePic.png" alt="Logo" width="80" height="80" style="background-color:white">
+    <img src="images/PortfolioSitePic.png" alt="Logo" width="500" height="300" style="background-color:white">
   </a>
 </p>
 
