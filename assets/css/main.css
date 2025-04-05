@@ -1901,3 +1901,6 @@ span.resume.image.main > img.display-profile-wpic {
 .about > a {
 	text-decoration: none;
 }
+.resume_dl_link > {
+	font-size: 0.42rem;
+}
